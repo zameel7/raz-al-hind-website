@@ -75,6 +75,11 @@ function main() {
             effect: 'slideDown',  
             keyboardNav: true,                            
         });
+    
+    $('.about-img a').nivoLightbox({
+          effect: 'slideDown',  
+          keyboardNav: true,                            
+        });
 
 }());
 

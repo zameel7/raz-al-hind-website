@@ -220,18 +220,21 @@ header .intro-text {
 	margin-left: 10px;
 }
 #about .about-img {
-	display: inline-block;
+	margin: 15px 0;
+}
+#about .about-img .hover-bg {
+	overflow: hidden;
 	position: relative;
 }
-#about .about-img:before {
+#about .about-img .hover-bg:before {
 	display: block;
 	content: '';
 	position: absolute;
-	top: 8px;
-	right: 8px;
-	bottom: 8px;
-	left: 8px;
-	border: 1px solid rgba(255, 255, 255, 0.5);
+	top: 6px;
+	right: 6px;
+	bottom: 6px;
+	left: 6px;
+	border: 1px solid rgba(255, 255, 255, 0.6);
 }
 #about p {
 	line-height: 24px;
