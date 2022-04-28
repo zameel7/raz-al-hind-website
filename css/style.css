@@ -291,15 +291,15 @@ header .intro-text {
 	margin-top: -26px;
 }
 /* Portfolio Section */
-#portfolio {
+#portfolio2, #portfolio {
 	padding: 0 0 120px 0;
 }
-#portfolio .section-title {
+#portfolio2 .section-title, #portfolio .section-title {
 	background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
 	background-size: cover;
 	margin-bottom: 50px;
 }
-#portfolio .section-title h2 {
+#portfolio2 .section-title h2, #portfolio .section-title{
 	color: #fff;
 }
 .categories {
